@@ -197,7 +197,7 @@ function pitch(request) {
               ({ context } = module);
             } else {
               // TODO check if this context is used somewhere
-              context = this.rootContext;
+              context = this.context;
             }
 
             return {
